@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-market</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+
+       <section class="text-parimary">
+          <header class="d-flex flex-wrap justify-content-center py-3  bg-primary mb-4 border">
+             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none ms-5">
+             <img height="20px" width="150px" src="./logo.png" alt="logo">
+            </a> 
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 long ">
+              <input  type="search" class="form-control me-5 w-100" placeholder="Search..." aria-label="Search">
+            </form>
+            <ul class="nav nav-">
+              <li class="nav-item"><a href="#categories" class="nav-link active text-white" aria-current="page  ">categories</a></li>
+              <li class="nav-item"><a href="#shoes" class="nav-link text-white">shoes</a></li>
+              <li class="nav-item"><a href="#backpack" class="nav-link  text-white">Backpack</a></li>
+              <li class="nav-item"><a href="#Subscribe" class="nav-link text-white">Contact Us</a></li>
+
+            </section>
+          </header>
+
+    </header>
+
+    <main>
+
+
+
+      <section class="container my-5 rounded-2 ">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="p-5 rounded-3 panda-bg-primary bg-gradient d-flex align-items-center">
+                    <div class="col-lg-8"> 
+                        <h1>Cool Dude Headphone</h1>
+                        <p>This is best headphone in the world for the people who just want to wast time in front of funky world</p>
+                        <h2 class="text-warning">$420</h2>
+                        <button class="panda-btn-buy-now bg-warning rounded-3">Buy Now <i class="bi bi-arrow-right"></i> </button> 
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="./banner-images/headphone.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                                          
+                  </div>
+                  <div class="carousel-item">
+                    <div class="p-5 rounded-3 panda-bg-primary bg-gradient d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>Mi LED TV 4A PRO 32</h1>
+                        <p> Amet minim mollit non deserunt ullamco est sit aliqua dolor <br>
+                          do amet sint. Velit officia consequat duis enim velit mollit.<br>
+                          Exercitation veniam consequat sunt nostrud amet.</p>
+                        <h2 class="text-danger" >$1200</h2>
+                            <button class="panda-btn-buy-now bg-danger rounded-3 ">Buy Now <i class="bi bi-arrow-right"></i></button> 
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="./banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="p-5 rounded-3 panda-bg-primary bg-gradient d-flex align-items-center">
+                            <div class="col-lg-7">
+                                <h1>X-Box for your living room</h1>
+                                <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                                <h2 class="text-warning">$600</h2>
+                                <button class="panda-btn-buy-now bg-warning rounded-3">Buy Now<i class="bi bi-arrow-right"></i></button> 
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="./banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                    </div>
+              </div>
+             
+              
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+      
+<!-----------------------Categories---strat---------------------------------->
+  <section class="container" id="categories">
+      <h1>categories</h1>
+
+      <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-info d-flex align-items-center justify-content-between rounded-3">
+                <h1 class="text-white">Watch</h1>
+                <img src="./categories/watch.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+                <h1 class="text-dark">Watch</h1>
+                <img src="./categories/bag.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-primary d-flex align-items-center justify-content-between rounded-3">
+                <h1 class="text-white">Watch</h1>
+                <img src="./categories/shoes.png" alt="">
+            </div>
+          </div>
+          </div>
+        </section>
+  <!--------------------Categories--end----------------------------->
+
+  <!--------------------Strat-Shoes-part------------------------------->
+  <div class="container bg-light">
+      <section class="container mt-5">
+          <h1>Shoes</h1>
+        <p class="text-warning text-end ">All See</p>
+       <!------------1----------------->
+       <div class="row ">
+<div class="d-flex" id="shoes">
+       <div class="im bg-white ms-5">
+        <div class="col-12 col-md-4 col-md-8">
+        <img width="300px" height="200px" src="./shoes/shoe-1.png" alt="">
+       </div>
+       <h4 class="text-center">Reebok Dart Men’s Shoes</h4>
+       <p class="text-center">Amet minim mollit non deserunt ullamco
+        est sit aliqua dolor do amet sint. </p>
+        <h3 class="text-center">$1289</h3>
+        <div class=" text-center mb-5">
+          <a class="btn btn-dark mt-2"href="#">BUY NOW <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+<!------------------2------------------->
+       <div class="im bg-white ms-5 ">
+        <div class="col-12 col-md-4 col-md-8">
+        <img width="300px" height="200px" src="./shoes/shoe-2.png" alt="">
+       </div>
+       <h4 class="text-center">Reebok Pump</h4>
+       <p class="text-center">Amet minim mollit non deserunt ullamco
+        est sit aliqua dolor do amet sint. </p>
+        <h3 class="text-center">$789</h3>
+        <div class=" text-center mb-5">
+          <a class="btn btn-dark mt-2"href="#">BUY NOW <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+<!---------------3------------------->
+       <div class="im bg-white ms-5">
+        <div class="col-12 col-md-4 col-md-8">
+        <img width="300px" height="200px" src="./shoes/shoe-3.png" alt="">
+       </div>
+       <h4 class="text-center">Reebok All Terrain</h4>
+       <p class="text-center">Amet minim mollit non deserunt ullamco
+        est sit aliqua dolor do amet sint. </p>
+        <h3 class="text-center">$689</h3>
+        <div class=" text-center mb-5">
+          <a class="btn btn-dark mt-2 " href="#">BUY NOW <i class="bi bi-arrow-right"></i></a>
+        </div>
+        </div>
+        </div>
+      </div>
+      </section>
+  <!--------------------Categories--end----------------------------->
+
+  <!--------------------Strat-bag-part------------------------------->
+  <div class="container bg-light">
+      <section class="container p-5">
+          <h1>Backpack</h1>
+        <p class="text-warning text-end ">All See</p>
+       <!------------1--part----------------->
+       <div class="row">
+<div class="d-flex ">
+       <div class="im bg-white ms-5">
+        <div class="col-12 col-md-4 col-md-8">
+        <img width="300px" height="200px" src="./bags/bag-1.png" alt="">
+       </div>
+       <h4 class="text-center">Ison Backpack</h4>
+       <p class="text-center">Amet minim mollit non deserunt ullamco
+        est sit aliqua dolor do amet sint. </p>
+        <h3 class="text-center">$1089</h3>
+        <div class=" text-center mb-5">
+          <a class="btn btn-dark mt-2 "  href="#">BUY NOW <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+<!------------------2--part------------------->
+       <div class="im bg-white ms-5 ">
+        <div class="col-12 col-md-4 col-md-8">
+        <img width="300px" height="200px" src="./bags/bag-2.png" alt="">
+       </div>
+       <h4 class="text-center">Biaowang Backpack</h4>
+       <p class="text-center">Amet minim mollit non deserunt ullamco
+        est sit aliqua dolor do amet sint. </p>
+        <h3 class="text-center">$789</h3>
+        <div class=" text-center mb-5">
+          <a class="btn btn-dark mt-2 "href="#">BUY NOW <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+<!---------------3--part------------------->
+       <div class="im bg-white ms-5">
+        <div class="col-12 col-md-4 col-md-8">
+        <img width="300px" height="200px" src="./bags/bag-3.png" alt="">
+       </div>
+       <h4 class="text-center">Dxyizu WS54 Smart</h4>
+       <p class="text-center">Amet minim mollit non deserunt ullamco
+        est sit aliqua dolor do amet sint. </p>
+        <h3 class="text-center">$689</h3>
+        <div class=" text-center mb-5">
+          <a class="btn btn-dark mt-2 " href="#">BUY NOW <i class="bi bi-arrow-right"></i></a>
+        </div>
+        </div>
+        </div>
+      </div>
+      </section>
+    </main>
+<!------------------End-Backpack------------------------->
+<!---------------------shes-part------------------------------->
+      <!-- <section class="container bg-light">
+      <div class="passward text-center mt-5">
+      <h3>LET'S STAY IN TOUCH</h3>
+      <p>Get updates on sales specials and more</p>
+    
+    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+      <input type="search" class=" width-300px" placeholder="Enter Your Email" aria-label="Search">
+    </form>
+  </section> -->
+  <!---------------------shes-part------------------------------->
+  <section  class="container bg-info d-flex justify-content-center align-items-center rounded-3 pb-5 mt-5 " id="Subscribe">
+    <div class="mt-5">
+     <h1>LET'S STAY IN TOUCH</h1>
+     <P>Get update on sales, specials and more</P>
+     <div class="d-flex">
+      <input class="form-control" type="text" placeholder=" Enter Your Email"><br>
+      <button class="btn-danger rounded-2">Send</button>
+     </div>
+    </div>
+    
+ </section>
+ <!-- <footer class="mt-5 text-center">
+  <h5 class="">©2022. Panda Commerce. All rights reserved</h5>
+</footer>
+    -->
+  <script src="https://kit.fontawesome.com/1fcd1fb7f1.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
